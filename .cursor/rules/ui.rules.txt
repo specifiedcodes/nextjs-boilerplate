@@ -1,0 +1,10 @@
+# UI Components Rules
+Description: For UI components, ensure that:
+- Components follow established UI patterns as defined in the project’s style guide or component library.
+- Tailwind CSS classes are used consistently for styling.
+- Utility classes are merged with the `cn` function from src/lib/utils.
+- Code is responsive and adheres to accessibility best practices (WCAG guidelines).
+- Components are well-documented with clear prop type definitions.
+- Favor composition over inheritance.
+File Pattern: **/components/ui/**/*.tsx, **/components/**/*.tsx
+Reference: @file src/components/ui/Button.tsx

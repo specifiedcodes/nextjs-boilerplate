@@ -1,0 +1,6 @@
+# Error Handling Rules
+Description: Use Sentry for error tracking and implement Error Boundaries to gracefully catch and display runtime errors. Ensure that:
+- Errors are logged with sufficient context for debugging.
+- Different error types (e.g., network errors, validation errors) are handled specifically.
+File Pattern: **/components/**, **/pages/**, **/app/**
+Reference: @file src/components/error-boundary.tsx

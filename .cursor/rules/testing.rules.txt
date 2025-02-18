@@ -1,0 +1,7 @@
+# Testing Rules
+Description: Write comprehensive tests:
+- Unit tests for individual components and functions.
+- Integration tests to ensure different parts of the application work together correctly.
+- End-to-end tests to simulate real user interactions.
+Aim for high test coverage. Use Jest and React Testing Library as the standard testing framework.
+File Pattern: **/tests/**, **/*.test.ts, **/*.test.tsx

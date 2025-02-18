@@ -1,0 +1,7 @@
+# Naming Convention Rules
+Description: Follow consistent naming conventions for variables, functions, components, and files. Use:
+- PascalCase for React components.
+- camelCase for variables and functions.
+- kebab-case for file names.
+Ensure names are descriptive and meaningful, avoiding abbreviations unless widely understood.
+File Pattern: **/*.ts, **/*.tsx, **/*.js, **/*.jsx

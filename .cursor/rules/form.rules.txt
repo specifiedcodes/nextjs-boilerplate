@@ -1,0 +1,7 @@
+# Form Management Rules
+Description: When implementing forms, always use react-hook-form for state management and zod for validation. Ensure that:
+- Form elements have proper labels and accessibility features.
+- Errors are handled gracefully with clear user feedback.
+- Consider using controlled components where necessary for complex logic.
+File Pattern: **/components/**/*.tsx
+Reference: @file src/components/ContactForm.tsx

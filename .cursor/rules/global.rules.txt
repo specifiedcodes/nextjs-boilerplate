@@ -1,0 +1,3 @@
+# Global Project Rules
+Description: All AI-generated code must be written in TypeScript, adhere to ESLint and Prettier standards, and follow our overall coding conventions. Code should be modular, maintainable, well-documented, and use Tailwind CSS utility classes for styling. Ensure code is performant and avoids unnecessary complexity. Comments should explain the *why*, not just the *what*.
+File Pattern: **/*

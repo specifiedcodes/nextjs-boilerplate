@@ -1,0 +1,5 @@
+# API Service Rules
+Description: All API calls must be centralized in a base API service (e.g., src/services/api.ts) using axios or fetch. This service should:
+- Include proper interceptors for authentication and error handling.
+- Implement request/response transformation, and retry logic or caching where appropriate.
+File Pattern: **/services/api.ts, **/lib/api.ts

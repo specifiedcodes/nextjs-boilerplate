@@ -1,0 +1,9 @@
+# Security and SEO Rules
+Description: Ensure that:
+- Security headers are configured in next.config.ts/next.config.js or middleware.ts.
+- SEO is managed using next-seo with consistent meta tags and Open Graph data.
+- Input validation is performed on all user inputs to prevent injection attacks.
+- Sensitive information is not exposed in client-side code.
+- CSRF protection is implemented for form submissions.
+File Pattern: next.config.ts, next.config.js, **/next-seo.config.ts, middleware.ts
+Reference: @file next-seo.config.ts

@@ -1,0 +1,7 @@
+# Performance Optimization Rules
+Description: Optimize performance by:
+- Using Next.js <Image> for optimized image rendering.
+- Employing code splitting (dynamic imports) to reduce initial load time.
+- Memoizing components to prevent unnecessary re-renders.
+- Profiling the application to identify and fix performance bottlenecks.
+File Pattern: **/components/**/*.tsx, **/app/**/*.tsx, **/pages/**/*.tsx

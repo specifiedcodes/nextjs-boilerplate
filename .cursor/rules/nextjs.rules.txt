@@ -1,0 +1,10 @@
+# Next.js Specific Rules
+Description: When editing Next.js files, ensure that:
+- Components that use hooks include the "use client" directive.
+- Server components do not use hooks.
+- The file structure follows the Next.js app directory (or pages directory) conventions.
+- Built-in optimizations (like <Image>, next/link, and dynamic imports) are utilized.
+- API routes are used for server-side logic where appropriate.
+- The Metadata API is utilized for SEO.
+File Pattern: **/app/**/*.tsx, **/app/**/*.ts, **/pages/**/*.tsx, **/pages/**/*.ts
+Reference: @file src/app/layout.tsx

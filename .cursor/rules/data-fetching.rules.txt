@@ -1,0 +1,6 @@
+# Data Fetching Rules
+Description: Use @tanstack/react-query or SWR to manage server state and caching. Ensure that:
+- Appropriate cache keys and expiration times are defined.
+- Loading and error states are handled gracefully.
+- Optimistic updates are considered for a better user experience.
+File Pattern: **/app/**, **/pages/**, **/components/**

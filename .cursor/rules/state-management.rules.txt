@@ -1,0 +1,6 @@
+# State Management Rules
+Description: Prefer local component state using useState or useReducer where appropriate. For more complex state needs, consider using:
+- Context API for global state (e.g., theme, auth).
+- Zustand or Redux Toolkit for complex scenarios.
+Avoid overusing global state to keep components decoupled.
+File Pattern: **/components/**/*.tsx, **/app/**/*.tsx, **/pages/**/*.tsx
